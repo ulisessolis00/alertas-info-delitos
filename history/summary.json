@@ -1,27 +1,20 @@
 [
   {
     "name": "info delitos prod",
-    "url": "$INFO_DEL_PROD",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "url": "https://info-delitos.des.cdmx.gob.mx/",
+    "icon": "https://icons.duckduckgo.com/ip3/info-delitos.des.cdmx.gob.mx.ico",
     "slug": "info-delitos-prod",
-    "status": "up",
-    "uptime": "99.45%",
+    "status": "down",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.51%",
-    "uptimeYear": "99.45%",
-    "time": 779,
-    "timeDay": 393,
-    "timeWeek": 1103,
-    "timeMonth": 1086,
-    "timeYear": 779,
-    "dailyMinutesDown": {
-      "2026-03-18": 197,
-      "2026-03-17": 20,
-      "2026-02-14": 568,
-      "2026-01-30": 53,
-      "2026-01-17": 18,
-      "2025-12-17": 16
-    }
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
   }
 ]

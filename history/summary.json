@@ -1,10 +1,10 @@
 [
   {
     "name": "info delitos prod",
-    "url": "https://info-delitos.cdmx.gob.mx/",
-    "icon": "https://icons.duckduckgo.com/ip3/info-delitos.cdmx.gob.mx.ico",
+    "url": "https://info-delitos.des.cdmx.gob.mx/",
+    "icon": "https://icons.duckduckgo.com/ip3/info-delitos.des.cdmx.gob.mx.ico",
     "slug": "info-delitos-prod",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "99.86%",
     "uptimeWeek": "99.98%",

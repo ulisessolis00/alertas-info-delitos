@@ -6,8 +6,8 @@ sites:
     url: $INFO_DEL_PROD
 
 notifications:
-  - type: slack
-    url: $NOTIFICATION_SLACK_WEBHOOK_URL
+  - type: telegram
+    url: $NOTIFICATION_TELEGRAM_BOT_KEY
 
 
 asignees:

@@ -3,7 +3,7 @@ repo: infode-up
 
 sites:
   - name: info delitos prod
-    url: $INFO_DEL_PROD
+    url: https://info-delitos.des.cdmx.gob.mx/
 
 notifications:
   - type: telegram

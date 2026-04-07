@@ -1,0 +1,97 @@
+owner: paupradel
+repo: infode-up
+
+sites:
+  - name: info delitos prod
+    url: $INFO_DEL_PROD
+
+notifications:
+  - type: slack
+    url: $NOTIFICATION_SLACK_WEBHOOK_URL
+
+
+asignees:
+  - paupradel
+
+status-website:
+  owner: paupradel
+  repo: infode-up
+  theme: ocean
+  baseUrl: /infode-up
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Estatus InfoDel
+  introTitle: "**Upptime** es un monitor de código abierto que funciona a través de GitHub."
+  introMessage: Aquí se monitorea si la página del proyecto se encuentra en línea. También da un histórico y envia notificaciones a Telegram.
+  navbar:
+    - title: Estatus
+      href: /
+    - title: Repositorio
+      href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas están operando
+  incidentReport: "Informe del incidente #$NUMBER →"
+  activeIncidentSummary: Abierto el $DATE con $POSTS publicaciones
+  incidentTitle: Detalles del incidente $NUMBER
+  incidentDetails: Detalles del incidente
+  incidentFixed: Solucionado
+  incidentOngoing: En curso
+  incidentOpenedAt: Abierto el
+  incidentClosedAt: Cerrado el
+  incidentViewOnGitHub: Ver y suscribirse en GitHub
+  incidentCommentSummary: Publicado el $DATE por $AUTHOR
+  incidentBack: ← Volver a todos los incidentes
+  pastIncidents: Incidentes anteriores
+  pastIncidentsResolved: Resuelto en $MINUTES minutos con $POSTS publicaciones
+  liveStatus: Estado en vivo
+  overallUptime: "Disponibilidad general: $UPTIME"
+  overallUptimeTitle: Disponibilidad general
+  averageResponseTime: "Tiempo promedio de respuesta: $TIME ms"
+  averageResponseTimeTitle: Tiempo promedio de respuesta
+  sevelDayResponseTime: Tiempo de respuesta en 7 días
+  responseTimeMs: Tiempo de respuesta (ms)
+  up: Operativo
+  down: Caído
+  degraded: Degradado
+  ms: ms
+  loading: Cargando
+  navGitHub: GitHub
+  footer: Esta página es [código abierto]($REPO), impulsada por [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: Límite de solicitudes excedido
+  rateLimitExceededIntro: Has superado la cantidad de solicitudes que puedes realizar en una hora, por lo que deberás esperar antes de acceder nuevamente a este sitio. Como alternativa, puedes agregar un token de acceso personal de GitHub para seguir utilizando este sitio.
+  rateLimitExceededWhatDoesErrorMean: ¿Qué significa este error?
+  rateLimitExceededErrorMeaning: Este sitio utiliza la API de GitHub para acceder a datos en tiempo real sobre el estado de nuestros sitios web. Por defecto, GitHub permite 60 solicitudes por hora por dirección IP, y ya las has consumido todas.
+  rateLimitExceededErrorHowCanFix: ¿Cómo puedo solucionarlo?
+  rateLimitExceededErrorFix: Puedes esperar una hora hasta que se restablezca el límite de tu dirección IP. Como alternativa, puedes agregar tu token de acceso personal de GitHub, lo que te otorga 5 000 solicitudes adicionales por hora.
+  rateLimitExceededGeneratePAT: Aprende cómo generar un token de acceso personal
+  rateLimitExceededHasSet: Ya tienes configurado un token de acceso personal.
+  rateLimitExceededRemoveToken: Eliminar token
+  rateLimitExceededGitHubPAT: Token de acceso personal de GitHub
+  rateLimitExceededCopyPastePAT: Copia y pega tu token
+  rateLimitExceededSaveToken: Guardar token
+  errorTitle: Ocurrió un error
+  errorIntro: Ocurrió un error al intentar obtener los detalles más recientes del estado.
+  errorText: Puedes volver a intentarlo en unos momentos.
+  errorHome: Ir a la página de inicio
+  pastScheduledMaintenance: Mantenimientos programados anteriores
+  scheduledMaintenance: Mantenimiento programado
+  scheduledMaintenanceSummaryStarted: Iniciado el $DATE durante $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Inicia el $DATE durante $DURATION minutos
+  startedAt: Iniciado el
+  startsAt: Inicia el
+  duration: Duración
+  durationMin: $DURATION minutos
+  incidentCompleted: Completado
+  incidentScheduled: Programado
+  duration24H: 24 h
+  duration7D: 7 d
+  duration30D: 30 d
+  duration1Y: 1 a
+  durationAll: todo
+  locale: es-ES
+
+  
+
+# Upptime also supports notifications, assigning issues, and more
+# See https://upptime.js.org/docs/configuration

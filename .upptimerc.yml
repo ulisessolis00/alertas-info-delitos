@@ -11,7 +11,7 @@ notifications:
 
 
 asignees:
-  - paupradel
+  - otros
 
 status-website:
   owner: paupradel

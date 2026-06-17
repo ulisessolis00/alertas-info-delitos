@@ -14,7 +14,7 @@ asignees:
   - otros
 
 status-website:
-  owner: paupradel
+  owner: ulisessolis00
   repo: infode-up
   theme: ocean
   baseUrl: /infode-up
